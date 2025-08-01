@@ -1,15 +1,17 @@
 # Previsao-de-Cotas-de-Criptomoedas
 
-[API de Cripto (CoinGecko/Binance)]   
+[API de Cripto (CoinGecko)]   
           ↓  
-[FastAPI ou Lambda para coleta]  
+[Lambda para coleta]  
           ↓  
 [Amazon Kinesis Data Firehose]  
           ↓  
-[Destino: S3 (Data Lake) ou Redshift / Elasticsearch]  
+[Amazon OpenSearch Service]  
           ↓  
-[Processamento com Athena, Glue ou Spark (ETL)]  
-          ↓  
+[Kibana Dashboard (real-time│ gráficos, auto-refresh)]  
+          
+----------- próximas etapas -----------  
+↓  
 [ML Training: Sagemaker / Notebook Local / EC2]  
           ↓  
 [Modelo Previsivo LSTM / Regressão]  

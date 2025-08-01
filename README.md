@@ -1,0 +1,1 @@
+# Previs-o-de-Cota-o-de-Criptomoedas

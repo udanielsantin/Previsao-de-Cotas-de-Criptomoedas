@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# CSV, JSON temporários
+*.csv
+*.json
+
+# Arquivos de configuração sensíveis
+*.env
+secrets.json
+credentials.json
+
+# Dados brutos ou temporários
+data/
+tmp/
+output/
